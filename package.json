@@ -1,0 +1,27 @@
+{
+  "name": "scratch-script",
+  "version": "0.1.0",
+  "description": "A script for scratch",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "cd test && node scs.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcui03/scratch-script.git"
+  },
+  "keywords": [
+    "scratch",
+    "script"
+  ],
+  "author": "Alex Cui",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alexcui03/scratch-script/issues"
+  },
+  "homepage": "https://github.com/alexcui03/scratch-script#readme",
+  "dependencies": {
+    "jszip": "^3.3.0"
+  }
+}
